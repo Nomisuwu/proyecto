@@ -1,0 +1,136 @@
+/*Elementos*/
+/* El "*" funciona para seleccionar lotos los elementos del html*/ 
+
+* {
+    margin: px;
+}
+
+.cuerpe{
+    background-image: url(AWW.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.tituloPrincipal{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.descripcion{
+    font-size: 20px;
+    color: rgb(19, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.padre{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.botonprincipal{
+    color: rgb(241, 234, 234);
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(197, 62, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15%;
+}
+/*cosasowo*/
+.cuero{
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.redes{
+     background-color: rgb(221, 81, 81);
+     display: flex;
+     height: 100px;
+     justify-content: space-around;
+     align-items: center;  
+}
+
+.menu{
+    background-color: rgb(199, 63, 63);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu_logo{
+    height: 80px;
+}
+
+.menulista{
+    display: flex;
+
+}
+.menuelemento{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(243, 162, 162);
+}
+
+.menulilink:link{
+    text-decoration: none;
+}
+.menulilink:hover{
+    color: rgb(255, 255, 255);
+}
+
+.logosr{
+   height: 50px;
+}
+
+.piesito{
+    background: linear-gradient(rgb(153, 29, 29), rgb(184, 8, 8));
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+.main{
+    display: flex ;
+    align-items:center;
+    background-color: rgb(211, 81, 81);
+}
+
+.main_imagen{
+    height: 380px;
+    margin: 100px;
+
+}
+.main_main{
+    text-align:center;
+    margin: 100px;
+    
+}
+.main_boton{
+    color: rgb(241, 234, 234);
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(197, 21, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15%;
+}
